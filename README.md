@@ -7,7 +7,7 @@ Commnet inital testing.
 
 - Work in progress 
 - Week 2 Diagram: 
-![p1](/images/p1.png "Diagram")
+![p1](images/p1.jpg "Diagram")
 
 # Srint 2 
 
