@@ -1,4 +1,4 @@
-### General
+### General 
   IP addresses - aggregate logs
   Country - use geoip processor in kibana on IP addresses
   Time of day - aggregate logs
