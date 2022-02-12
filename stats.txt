@@ -1,11 +1,11 @@
-#General
+# General
 IP addresses - aggregate logs
 Country - use geoip processor in kibana on IP addresses
 Time of day - aggregate logs
 Ports probed?
 Services hacked/attempted - based on log source
 
-#SSH
+# SSH
 IP addresses
 Source ports
 Country - use geoip processor in kibana on IP addresses
@@ -17,16 +17,16 @@ Packets?
 Bytes?
   -script needs to record this information into a log
 
-#Web
+# Web
 
 
-#FTP
+# FTP
 
 
-#RDP
+# RDP
 
 
-#possibilities if time
+# possibilities if time
 connection length of time
 record keystrokes
 files downloaded/URLs accessed - possibly infer purpose of attack (botnet, cryptomining, etc)
