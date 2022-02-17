@@ -1,3 +1,4 @@
+![honeystats logo](https://avatars.githubusercontent.com/u/98433894?s=100&v=4)
 # Honeystats   
 Honeystats is an interactive honeypot that utilizes open-source technology. It is deployable to any organization or enterprise without too many dependencies or hardware requirements. Honeystats is designed to be hosted in a virtual environment to capture activities of adversaries on the internet and monitor their attack vectors and methods. By collecting critical information and data, ranging from commands being run to user information, Honeystats generates detailed reports as JSON documents that are sent to Elasticsearch and will reflect the activities that are captured from the honeypot in real-time. This data can then be rendered in Kibana in the form of a dashboard with visualizations. Honeystats gives users the flexibility to filter what content is present on their dashboard with minimal effort. 
 
