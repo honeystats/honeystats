@@ -23,6 +23,11 @@ Honeystats is an interactive honeypot that utilizes open-source technology. It i
 - Connection to the ssh sercive will capture all activies and send it to the elsastic search in real time. Including the password that were entered:
 ![p1](images/ElasticSearch.png)
 
+- Mimic the acutal SSH service footprint.
+![p1](images/footprint.png)
+
+
+
 ## Sprint 3 - Polishing
 
 ## Sprint 4 - Presenting
