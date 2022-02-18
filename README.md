@@ -14,6 +14,15 @@ Honeystats is an interactive honeypot that utilizes open-source technology. It i
 - Setting up the dev env for SSH as well as web.
 
 
+- inital SSH service set up and runing on the ssh dev envirment. 
+![p1](images/runningSSJ.gif)
+
+- Demo connecting to the the SSH servie that been created in the sshdev enviorment from the webdev vms.
+![p1](images/connectingSSh.gif)
+
+- Connection to the ssh sercive will capture all activies and send it to the elsastic search in real time. Including the password that were entered:
+![p1](images/ElasticSearch.png)
+
 ## Sprint 3 - Polishing
 
 ## Sprint 4 - Presenting
