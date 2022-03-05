@@ -27,6 +27,22 @@ Honeystats is an interactive honeypot that utilizes open-source technology. It i
 ![p1](images/footprint.png)
 
 
+- The honeystats have a customizable file directory that is tailored to customers' needs as well as flexible.  The [file.yaml](https://github.com/honeystats/ssh/blob/main/files.yaml) consist of linux like directory with permission and content which mimic the actual directory.
+
+- the following commands are implemented and fully functional.
+```
+cat
+cd 
+clear 
+exit 
+ls 
+pwd 
+whoami
+```
+the autocomplete and tabs are also fully functional shows as following. 
+![p1](images/autocomplete.gif)
+
+
 
 ## Sprint 3 - Polishing
 
@@ -34,4 +50,4 @@ Honeystats is an interactive honeypot that utilizes open-source technology. It i
 
 ## Possible research
 
-Please visit the [Wiki](https://github.com/honeystats/honeystats/wiki) for more addtional information. 
+Please visit the [Wiki](https://github.com/honeystats/honeystats/wiki) for more additional information. 
