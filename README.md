@@ -55,7 +55,11 @@ Usage of fileconfig-generator:
     	path from which to generate the YAML file
 ```
 
-- The YAML file will have mimic given directory and recursively call the sub directory and file content to generate a directory given a file path as mentioned above. This gives flexibility and easier deployment to set up the honesty environment.
+- The YAML file will have mimic given directory and recursively call the sub directory and file content to generate a directory given a file path as mentioned above. This gives flexibility and easier deployment to set up the honesty environment.  
+
+- Demo image:
+
+![p1](images/yamlgenerator.png)
 
 
 
