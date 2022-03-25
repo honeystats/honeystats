@@ -46,6 +46,19 @@ the autocomplete and tabs are also fully functional shows as following.
 
 ## Sprint 3 - Polishing
 
+- The honeystats have taken a safer approach instead of giving real system command calls when calling the the command mentions above, we give a YAML file directory to make sure that what the adversary do still is in the YAML file not the actual file system. 
+
+```
+go run ./cmd/fileconfig-generator -h
+Usage of fileconfig-generator:
+  -source-path string
+    	path from which to generate the YAML file
+```
+
+- The YAML file will have mimic given directory and recursively call the sub directory and file content to generate a directory given a file path as mentioned above. This gives flexibility and easier deployment to set up the honesty environment.
+
+
+
 ## Sprint 4 - Presenting
 
 ## Possible research
