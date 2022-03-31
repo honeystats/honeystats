@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  honeystats-setup:
+    image: ghcr.io/honeystats/elasticsearch-init:latest
+    init: true
+    environment:
+      ELASTICSEARCH_URL: "http://elasticsearch:9200"
+      ELASTIC_USERNAME: elastic
+      ELASTIC_PASSWORD: ${ELASTIC_PASSWORD:-}
+      KIBANA_SYSTEM_PASSWORD: ${KIBANA_SYSTEM_PASSWORD:-}
+    networks:
+      - elk
