@@ -11,3 +11,16 @@ services:
       KIBANA_SYSTEM_PASSWORD: ${KIBANA_SYSTEM_PASSWORD:-}
     networks:
       - elk
+    depends_on:
+      - elasticsearch
+  honeystats-web:
+    image: ghcr.io/honeystats/web:latest
+    environment:
+      PORT: "8000"
+      ES_URL: "http://elastic:${ELASTIC_PASSWORD:-}@elasticsearch:9200"
+    ports:
+      - 8000:8000
+    networks:
+      - elk
+    depends_on:
+      - elasticsearch
