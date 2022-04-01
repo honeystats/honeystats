@@ -62,6 +62,22 @@ Usage of fileconfig-generator:
 ![p1](images/yamlgenerator.png)
 
 
+- Web Interface and Admin Consul were also deployed and has a functionality. 
+***REMOVED***
+![p1](images/LoginPage.png)
+
+- The Webpage rejects arbitrary credentials and will allow login with a valid username and password that are not too secure. 
+![p1](images/login.gif)
+
+- The website is vulnerable SQL Injections and command rejections. Please see blow for the demos.
+![p1](images/loginwithSQL.gif)
+
+
+- The website is vulnerable SQL for the password injections . Please see blow for the demos.
+![p1](images/loginwithSQLfail.gif)
+
+
+
 
 ## Sprint 4 - Presenting
 
