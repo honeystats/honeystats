@@ -73,9 +73,20 @@ Usage of fileconfig-generator:
 ![p1](images/loginwithSQL.gif)
 
 
-- The website is vulnerable SQL for the password injections . Please see blow for the demos.
+- The website is vulnerable SQL for the password injections . Please see blow for the demos. 
+
 ![p1](images/loginwithSQLfail.gif)
 
+- The web Dev is also support OS command injections:
+```
+ls
+pwd
+hostnamectl
+```
+
+- Similar to the SSH services that is provided , the Honeystats web operations also keep a log and sent every command that user have try in real time.
+
+![p1](images/webdev_elstic.png)
 
 
 
