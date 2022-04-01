@@ -62,29 +62,29 @@ Usage of fileconfig-generator:
 ![p1](images/yamlgenerator.png)
 
 
-- Web Interface and Admin Consul were also deployed and has a functionality. 
+- Web Interface and Admin Console were also deployed and have functionality. 
 ***REMOVED***
 ![p1](images/LoginPage.png)
 
 - The Webpage rejects arbitrary credentials and will allow login with a valid username and password that are not too secure. 
 ![p1](images/login.gif)
 
-- The website is vulnerable SQL Injections and command rejections. Please see blow for the demos.
+- The website is vulnerable to SQL injection attempts. Please see below for the demos.
 ![p1](images/loginwithSQL.gif)
 
 
-- The website is vulnerable SQL for the password injections . Please see blow for the demos. 
+- The website is also vulnerable to SQL injection for the password field. Please see below for the demos. 
 
 ![p1](images/loginwithSQLfail.gif)
 
-- The web Dev is also support OS command injections:
+- The web Dev also supports OS command injections:
 ```
 ls
 pwd
 hostnamectl
 ```
 
-- Similar to the SSH services that is provided , the Honeystats web operations also keep a log and sent every command that user have try in real time.
+- Similar to the SSH services that is provided , the Honeystats web operations also keep a log and send statistics, headers, and commands that users have tried in real time.
 
 ![p1](images/webdev_elstic.png)
 
