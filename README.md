@@ -63,7 +63,6 @@ Usage of fileconfig-generator:
 
 
 - Web Interface and Admin Console were also deployed and have functionality. 
-***REMOVED***
 ![p1](images/LoginPage.png)
 
 - The Webpage rejects arbitrary credentials and will allow login with a valid username and password that are not too secure. 
