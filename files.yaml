@@ -1,0 +1,25 @@
+root:
+  name: example
+  permissions: 0
+  subdirs:
+  - name: a
+    permissions: 0
+    subdirs:
+    - name: b
+      permissions: 0
+      subdirs: []
+      files:
+      - name: someotherfile
+        content: |
+          this
+          file
+          has
+          newlines
+    files:
+    - name: somefile
+      content: |
+        this is file a/somefile
+  files:
+  - name: file-directly-in-example
+    content: |
+      testing

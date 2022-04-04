@@ -24,3 +24,17 @@ services:
       - elk
     depends_on:
       - elasticsearch
+  honeystats-ssh:
+    image: ghcr.io/honeystats/ssh:latest
+    environment:
+      PORT: "2222"
+      ELASTICSEARCH_URL: "http://elastic:${ELASTIC_PASSWORD:-}@elasticsearch:9200"
+      FILES_CONFIG: "/files.yaml"
+    volumes:
+      - "../files.yaml:/files.yaml:ro"
+    ports:
+      - 2222:2222
+    networks:
+      - elk
+    depends_on:
+      - elasticsearch
