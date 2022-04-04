@@ -9,6 +9,7 @@ services:
       ELASTIC_USERNAME: elastic
       ELASTIC_PASSWORD: ${ELASTIC_PASSWORD:-}
       KIBANA_SYSTEM_PASSWORD: ${KIBANA_SYSTEM_PASSWORD:-}
+      KIBANA_API_URL: "http://kibana:5601/api"
     networks:
       - elk
     depends_on:
