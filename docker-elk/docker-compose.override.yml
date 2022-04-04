@@ -13,6 +13,7 @@ services:
       - elk
     depends_on:
       - elasticsearch
+      - kibana
   honeystats-web:
     image: ghcr.io/honeystats/web:latest
     environment:
