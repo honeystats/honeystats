@@ -91,6 +91,8 @@ hostnamectl
 
 ## Sprint 4 - Presenting
 
+- To Download the presentation link check here : [Presentation](https://f.kps.ninja/capstone-presentation/)
+
 ## Possible research
 
 Please visit the [Wiki](https://github.com/honeystats/honeystats/wiki) for more additional information. 
